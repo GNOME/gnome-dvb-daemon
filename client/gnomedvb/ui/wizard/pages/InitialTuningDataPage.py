@@ -30,7 +30,7 @@ from gnomedvb import GROUP_TERRESTRIAL
 from gnomedvb import GROUP_SATELLITE
 from gnomedvb import GROUP_CABLE
 
-DVB_APPS_DIRS = ("/usr/share/dvb-v5",)
+DVB_APPS_DIRS = ("/usr/share/dvbv5",)
 
 COUNTRIES = {
     "ad": "Andorra",
