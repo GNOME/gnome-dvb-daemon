@@ -232,7 +232,7 @@ class InitialTuningDataPage(BasePage):
         self.country_combo = Gtk.ComboBox.new_with_model_and_entry(self.countries)
         self.country_combo.set_hexpand(True)
         self.country_combo.connect('changed', self.on_country_changed)
-        self.__data_dir = "terrestrial"
+        self.__data_dir = "dvb-t"
         cell = Gtk.CellRendererText()
         self.country_combo.pack_start(cell, True)
         self.country_combo.set_entry_text_column(0)
@@ -305,7 +305,7 @@ class InitialTuningDataPage(BasePage):
         self.country_combo = Gtk.ComboBox.new_with_model_and_entry(self.countries)
         self.country_combo.set_hexpand(True)
         self.country_combo.connect('changed', self.on_country_changed)
-        self.__data_dir = "cable"
+        self.__data_dir = "dvb-c"
         cell = Gtk.CellRendererText()
         self.country_combo.pack_start(cell, True)
         self.country_combo.set_entry_text_column(0)
@@ -407,8 +407,8 @@ class InitialTuningDataPage(BasePage):
     def read_satellites(self):
         for d in DVB_APPS_DIRS:
             if os.access(d, os.F_OK | os.R_OK):
-                for f in os.listdir(os.path.join(d, 'satellite')):
-                    self.satellites.append([f, os.path.join(d, 'satellite', f)])
+                for f in os.listdir(os.path.join(d, 'dvb-s')):
+                    self.satellites.append([f, os.path.join(d, 'dvb-s', f)])
 
     def on_satellite_changed(self, selection):
         model, aiter = selection.get_selected()
