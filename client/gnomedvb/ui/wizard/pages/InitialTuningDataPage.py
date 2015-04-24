@@ -212,7 +212,7 @@ class InitialTuningDataPage(BasePage):
         countries = {self.NOT_LISTED: _("Not listed")}
         t = gettext.translation("iso_3166", fallback=True)
         for lang in COUNTRIES_DVB_T:
-            countries[lang] = t.ugettext(COUNTRIES[lang])
+            countries[lang] = t.gettext(COUNTRIES[lang])
 
         self._create_table()
 
@@ -286,7 +286,7 @@ class InitialTuningDataPage(BasePage):
         countries = {}
         t = gettext.translation("iso_3166", fallback=True)
         for lang in COUNTRIES_DVB_C:
-            countries[lang] = t.ugettext(COUNTRIES[lang])
+            countries[lang] = t.gettext(COUNTRIES[lang])
 
         self._create_table()
 
