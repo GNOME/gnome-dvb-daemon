@@ -957,7 +957,7 @@ msgstr "No se pudo iniciar la configuración del demonio de GNOME DVB"
 
 #: ../data/gnome-dvb-control.desktop.in.in.h:1
 msgid "Digital TV Control Center"
-msgstr "Centro de control digial TV"
+msgstr "Centro de control digital TV"
 
 #: ../data/gnome-dvb-control.desktop.in.in.h:2
 msgid "Schedule recordings and browse program guide"
