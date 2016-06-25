@@ -19,7 +19,7 @@ UI:
     - Python >= 2.5
     - python-gstreamer
     - pygobject >= 2.90.1
-    - (Recommended) dvb-apps for initial tuning data
+    - (Recommended) dtv-scan-tables for initial tuning data
     
 Configuration options
 =====================
