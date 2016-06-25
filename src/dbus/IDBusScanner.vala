@@ -41,7 +41,7 @@ namespace DVB {
          * @path: Path to file containing scanning data
          * @returns: TRUE when the file has been parsed successfully
          *
-         * Parses initial tuning data from a file as provided by dvb-apps
+         * Parses initial tuning data from a file as provided by dtv-scan-tables
          */
         public abstract bool AddScanningDataFromFile (string path) throws DBusError;
     }
