@@ -198,7 +198,7 @@ class InitialTuningDataPage(BasePage):
 
     def setup_dvb_apps_missing(self):
         text = "<big><b>%s</b></big>\n%s" % (_("Could not find initial tuning data."),
-            _("Please make sure that the dvb-apps package is installed."))
+            _("Please make sure that the dtv-scan-tables package is installed."))
         self._label.set_markup(text)
 
     def setup_dvb_t(self):
