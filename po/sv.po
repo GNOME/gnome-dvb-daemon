@@ -7,10 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dvb-daemon\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=dvb-"
-"daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-06-15 20:03+0000\n"
-"PO-Revision-Date: 2016-06-16 18:31+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-18 13:06+0200\n"
+"PO-Revision-Date: 2011-08-16 15:12+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -690,25 +689,26 @@ msgid "Unsupported adapter"
 msgstr "Adaptern stöds inte"
 
 #. translators: first %s is the DVB type, e.g. DVB-S
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:196
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:197
 #, python-format
 msgid "Sorry, but '%s' cards aren't supported."
 msgstr "Tyvärr, \"%s\"-kort stöds ej."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:200
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
 msgid "Could not find initial tuning data."
 msgstr "Kunde inte hitta initialt tuningdata."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
-msgid "Please make sure that the dvb-apps package is installed."
-msgstr "Försäkra dig om att paketet dvb-apps är installerat."
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:202
+#, fuzzy
+msgid "Please make sure that the dtv-scan-tables package is installed."
+msgstr "Försäkra dig om att paketet dtv-scan-tables är installerat."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:205
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
 msgid ""
 "Please choose a country and the antenna that is closest to your location."
 msgstr "Välj ett land och den antenn som finns närmast dig."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
 msgid ""
 "If you don't know which antenna to choose select \"Don't know\" from the "
 "list of providers."
@@ -716,45 +716,45 @@ msgstr ""
 "Om du inte vet vilken antenn du ska välja så välj \"Vet inte\" från "
 "leverantörslistan."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:208
 msgid "However, searching for channels will take considerably longer this way."
 msgstr ""
 "Dock kommer sökning efter kanaler att ta mycket längre tid med detta sätt."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:212
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:213
 msgid "Not listed"
 msgstr "Ej listad"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:220
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:294
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:221
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:295
 msgid "_Country:"
 msgstr "_Land:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:246
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:247
 msgid "_Antenna:"
 msgstr "_Antenn:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:255
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:256
 msgid "Antenna"
 msgstr "Antenn"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:269
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:270
 msgid "_Satellite:"
 msgstr "_Satellit:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:277
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:278
 msgid "Satellite"
 msgstr "Satellit"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:318
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:319
 msgid "_Providers:"
 msgstr "_Leverantörer:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:326
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:327
 msgid "Provider"
 msgstr "Leverantör"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:377
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:378
 msgid "Don't know"
 msgstr "Vet ej"
 

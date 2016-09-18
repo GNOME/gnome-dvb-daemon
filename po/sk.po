@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dvb-daemon master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=dvb-"
-"daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-06-15 20:03+0000\n"
-"PO-Revision-Date: 2016-06-15 22:06+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-18 13:06+0200\n"
+"PO-Revision-Date: 2011-08-16 15:12+0000\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -759,25 +758,26 @@ msgid "Unsupported adapter"
 msgstr "Nepodporovaný adaptér"
 
 #. translators: first %s is the DVB type, e.g. DVB-S
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:196
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:197
 #, python-format
 msgid "Sorry, but '%s' cards aren't supported."
 msgstr "Prepáčte, ale karty typu „%s“ nie sú podporované."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:200
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
 msgid "Could not find initial tuning data."
 msgstr "Nepodarilo sa nájsť počiatočné údaje ladenia."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
-msgid "Please make sure that the dvb-apps package is installed."
-msgstr "Uistite sa, prosím, či je nainštalovaný balík „dvb-apps“."
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:202
+#, fuzzy
+msgid "Please make sure that the dtv-scan-tables package is installed."
+msgstr "Uistite sa, prosím, či je nainštalovaný balík „dtv-scan-tables“."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:205
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
 msgid ""
 "Please choose a country and the antenna that is closest to your location."
 msgstr "Prosím, zvoľte krajinu a vysielač, ktoré sú najbližšie k vám."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
 msgid ""
 "If you don't know which antenna to choose select \"Don't know\" from the "
 "list of providers."
@@ -785,47 +785,47 @@ msgstr ""
 "Ak neviete, ktorý vysielač máte zvoliť, vyberte zo zoznamu poskytovateľov "
 "voľbu „Neviem“."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:208
 msgid "However, searching for channels will take considerably longer this way."
 msgstr "Vyhľadávanie kanálov však bude trvať oveľa dlhšie."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:212
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:213
 msgid "Not listed"
 msgstr "Nie je v zozname"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:220
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:294
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:221
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:295
 msgid "_Country:"
 msgstr "_Krajina:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:246
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:247
 msgid "_Antenna:"
 msgstr "_Anténa:"
 
 # Gtk ListStore
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:255
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:256
 msgid "Antenna"
 msgstr "Výber antény"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:269
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:270
 msgid "_Satellite:"
 msgstr "_Satelit:"
 
 # Gtk ListStore
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:277
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:278
 msgid "Satellite"
 msgstr "Výber satelitu"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:318
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:319
 msgid "_Providers:"
 msgstr "_Poskytovatelia:"
 
 # Gtk ListStore
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:326
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:327
 msgid "Provider"
 msgstr "Výber poskytovateľa"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:377
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:378
 msgid "Don't know"
 msgstr "Neviem"
 

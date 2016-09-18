@@ -2,23 +2,23 @@
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the bosnianuniversetranslation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# Samir Ribić <Unknown>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=dvb-"
-"daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-27 07:54+0000\n"
-"PO-Revision-Date: 2014-01-17 23:02+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-18 13:06+0200\n"
+"PO-Revision-Date: 2016-09-18 13:13+0200\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Launchpad (build 17341)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "X-Launchpad-Export-Date: 2015-02-15 06:19+0000\n"
 
 #: ../client/gnomedvb/__init__.py:35
@@ -92,7 +92,8 @@ msgid "Channels of group"
 msgstr "Kanali iz grupe"
 
 #: ../client/gnomedvb/ui/channellisteditor/ChannelListEditorDialog.py:256
-msgid "An error occured while adding the group"
+#, fuzzy
+msgid "An error occurred while adding the group"
 msgstr "Greška se desila pri dodavanju grupe"
 
 #: ../client/gnomedvb/ui/channellisteditor/ChannelListEditorDialog.py:265
@@ -105,7 +106,8 @@ msgid "All assignments to this group will be lost."
 msgstr "Svi zadaci ove grupe će biti izgubljeni."
 
 #: ../client/gnomedvb/ui/channellisteditor/ChannelListEditorDialog.py:283
-msgid "An error occured while removing the group"
+#, fuzzy
+msgid "An error occurred while removing the group"
 msgstr "Greška se desila pri uklanjanju grupe"
 
 #: ../client/gnomedvb/ui/controlcenter/ControlCenterWindow.py:55
@@ -280,7 +282,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Uređaji"
 
-#. translators: first is device's nami, second its type
+#. translators: first is device's name, second its type
 #: ../client/gnomedvb/ui/preferences/DeviceGroupsView.py:68
 #, python-format
 msgid "<b>%s (%s)</b>\n"
@@ -606,7 +608,8 @@ msgstr ""
 "uređaja."
 
 #: ../client/gnomedvb/ui/wizard/pages/AdaptersPage.py:114
-msgid "An error occured while retrieving devices."
+#, fuzzy
+msgid "An error occurred while retrieving devices."
 msgstr "Greška se dogodila pri vraćanju uređaja."
 
 #: ../client/gnomedvb/ui/wizard/pages/AdaptersPage.py:116
@@ -691,69 +694,69 @@ msgid "Unsupported adapter"
 msgstr "Nepodržan adapter"
 
 #. translators: first %s is the DVB type, e.g. DVB-S
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:196
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:197
 #, python-format
 msgid "Sorry, but '%s' cards aren't supported."
 msgstr "Izvinite, ali  '%s' karte nisu podržane."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:200
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
 msgid "Could not find initial tuning data."
 msgstr "Početni podaci za podešavanje nisu pronađeni."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
-msgid "Please make sure that the dvb-apps package is installed."
-msgstr "Molimo provjerite da je dvb-apps paket instaliran."
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:202
+msgid "Please make sure that the dtv-scan-tables package is installed."
+msgstr "Molimo provjerite da je dtv-scan-tables paket instaliran."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:205
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
 msgid ""
 "Please choose a country and the antenna that is closest to your location."
 msgstr "Molimo odaberite državu i antenu koja je najbliža vašoj lokaciji."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
 msgid ""
 "If you don't know which antenna to choose select \"Don't know\" from the "
 "list of providers."
 msgstr ""
 "Ako ne znate koju antenu odabrati odaberite \"Ne znam \" iz liste dostaljača."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:208
 msgid "However, searching for channels will take considerably longer this way."
 msgstr "Međutim,traganje za kanalima će trajati značajno duže ovako."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:212
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:213
 msgid "Not listed"
 msgstr "Nije na spisku"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:220
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:294
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:221
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:295
 msgid "_Country:"
 msgstr "_Država:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:246
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:247
 msgid "_Antenna:"
 msgstr "_Antena:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:255
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:256
 msgid "Antenna"
 msgstr "Antena"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:269
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:270
 msgid "_Satellite:"
 msgstr "_Satelit:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:277
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:278
 msgid "Satellite"
 msgstr "Satelit"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:318
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:319
 msgid "_Providers:"
 msgstr "_Dostavljači:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:326
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:327
 msgid "Provider"
 msgstr "Pružalac"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:377
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:378
 msgid "Don't know"
 msgstr "Ne znam"
 
@@ -789,6 +792,10 @@ msgid "Save channels"
 msgstr "Snimi kanale"
 
 #: ../client/gnomedvb/ui/wizard/pages/SetupDevicePage.py:46
+#, fuzzy
+msgid "Device configuration"
+msgstr "Konfiguracija digitalne TV"
+
 #: ../client/gnomedvb/ui/wizard/pages/SetupDevicePage.py:90
 msgid "Configuring device"
 msgstr "Podešavam uređaj"
@@ -811,7 +818,8 @@ msgid "The device has been added to the group %s."
 msgstr "Uređaj nije dodaj u grupu %s."
 
 #: ../client/gnomedvb/ui/wizard/pages/SetupDevicePage.py:149
-msgid "An error occured while trying to setup the device."
+#, fuzzy
+msgid "An error occurred while trying to setup the device."
 msgstr "Greška se dogodila pri pokušaju postavljanja uređaja."
 
 #: ../client/gnomedvb/ui/wizard/pages/SummaryPage.py:32
@@ -823,8 +831,8 @@ msgid "Configuration finished"
 msgstr "Konfiguracija završena"
 
 #: ../client/gnomedvb/ui/wizard/pages/SummaryPage.py:44
-#, python-format
-msgid "The device %s has been configured sucessfully."
+#, fuzzy, python-format
+msgid "The device %s has been configured successfully."
 msgstr "Uređaj %s je konfigurisan uspješno."
 
 #: ../client/gnomedvb/ui/wizard/pages/SummaryPage.py:46

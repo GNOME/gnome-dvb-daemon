@@ -7,9 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dvb-daemon master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=dvb-"
-"daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-11-15 21:11+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-18 13:06+0200\n"
 "PO-Revision-Date: 2015-03-06 12:32+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
@@ -94,7 +93,8 @@ msgid "Channels of group"
 msgstr "Каналы групп"
 
 #: ../client/gnomedvb/ui/channellisteditor/ChannelListEditorDialog.py:256
-msgid "An error occured while adding the group"
+#, fuzzy
+msgid "An error occurred while adding the group"
 msgstr "При добавлении группы произошла ошибка"
 
 #: ../client/gnomedvb/ui/channellisteditor/ChannelListEditorDialog.py:265
@@ -107,7 +107,8 @@ msgid "All assignments to this group will be lost."
 msgstr "Все назначения для этой группы будут утрачены."
 
 #: ../client/gnomedvb/ui/channellisteditor/ChannelListEditorDialog.py:283
-msgid "An error occured while removing the group"
+#, fuzzy
+msgid "An error occurred while removing the group"
 msgstr "При удалении группы произошла ошибка"
 
 #: ../client/gnomedvb/ui/controlcenter/ControlCenterWindow.py:55
@@ -386,6 +387,7 @@ msgid "Device could not be removed from group"
 msgstr "Устройство не может быть удалено из группы"
 
 #: ../client/gnomedvb/ui/preferences/Preferences.py:235
+#, python-format
 msgid "Are you sure you want to remove device <b>%s</b> from <b>%s</b>?"
 msgstr "Действительно удалить устройство <b>%s</b> из <b>%s</b>?"
 
@@ -607,7 +609,8 @@ msgstr ""
 "устройств."
 
 #: ../client/gnomedvb/ui/wizard/pages/AdaptersPage.py:114
-msgid "An error occured while retrieving devices."
+#, fuzzy
+msgid "An error occurred while retrieving devices."
 msgstr "При извлечении устройств произошла ошибка."
 
 #: ../client/gnomedvb/ui/wizard/pages/AdaptersPage.py:116
@@ -692,25 +695,26 @@ msgid "Unsupported adapter"
 msgstr "Неподдерживаемый адаптер"
 
 #. translators: first %s is the DVB type, e.g. DVB-S
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:196
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:197
 #, python-format
 msgid "Sorry, but '%s' cards aren't supported."
 msgstr "Карты «%s» не поддерживаются."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:200
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
 msgid "Could not find initial tuning data."
 msgstr "Не удалось обнаружить начальные данные настройки."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:201
-msgid "Please make sure that the dvb-apps package is installed."
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:202
+#, fuzzy
+msgid "Please make sure that the dtv-scan-tables package is installed."
 msgstr "Убедитесь, что пакет с приложениями dvb установлен."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:205
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
 msgid ""
 "Please choose a country and the antenna that is closest to your location."
 msgstr "Выберите страну и ближайшую к вам антенну."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:206
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
 msgid ""
 "If you don't know which antenna to choose select \"Don't know\" from the "
 "list of providers."
@@ -718,44 +722,44 @@ msgstr ""
 "Если вы не знаете, какую антенну выбрать, выберите из списка провайдеров "
 "пункт «Не знаю»."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:207
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:208
 msgid "However, searching for channels will take considerably longer this way."
 msgstr "Однако поиск каналов займёт больше времени."
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:212
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:213
 msgid "Not listed"
 msgstr "Нет в списке"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:220
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:294
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:221
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:295
 msgid "_Country:"
 msgstr "_Страна:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:246
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:247
 msgid "_Antenna:"
 msgstr "_Антенна:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:255
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:256
 msgid "Antenna"
 msgstr "Антенна"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:269
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:270
 msgid "_Satellite:"
 msgstr "_Спутник:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:277
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:278
 msgid "Satellite"
 msgstr "Спутник"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:318
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:319
 msgid "_Providers:"
 msgstr "_Провайдеры:"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:326
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:327
 msgid "Provider"
 msgstr "Провайдер"
 
-#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:377
+#: ../client/gnomedvb/ui/wizard/pages/InitialTuningDataPage.py:378
 msgid "Don't know"
 msgstr "Не знаю"
 
@@ -791,6 +795,10 @@ msgid "Save channels"
 msgstr "Сохранить каналы"
 
 #: ../client/gnomedvb/ui/wizard/pages/SetupDevicePage.py:46
+#, fuzzy
+msgid "Device configuration"
+msgstr "Настройка цифрового ТВ"
+
 #: ../client/gnomedvb/ui/wizard/pages/SetupDevicePage.py:90
 msgid "Configuring device"
 msgstr "Настройка устройства"
@@ -812,7 +820,8 @@ msgid "The device has been added to the group %s."
 msgstr "Устройство было добавлено в группу %s."
 
 #: ../client/gnomedvb/ui/wizard/pages/SetupDevicePage.py:149
-msgid "An error occured while trying to setup the device."
+#, fuzzy
+msgid "An error occurred while trying to setup the device."
 msgstr "При попытке настройки устройства произошла ошибка."
 
 #: ../client/gnomedvb/ui/wizard/pages/SummaryPage.py:32
@@ -824,8 +833,8 @@ msgid "Configuration finished"
 msgstr "Настройка завершена"
 
 #: ../client/gnomedvb/ui/wizard/pages/SummaryPage.py:44
-#, python-format
-msgid "The device %s has been configured sucessfully."
+#, fuzzy, python-format
+msgid "The device %s has been configured successfully."
 msgstr "Устройство %s было успешно настроено."
 
 #: ../client/gnomedvb/ui/wizard/pages/SummaryPage.py:46
