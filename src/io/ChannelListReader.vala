@@ -65,14 +65,18 @@ namespace DVB.io {
 
                     if (c == null) continue;
 
-                    c.Sid = (uint)this.file.get_uint64 (group, "SERVICE_ID");
-                    c.Name = this.file.get_string (group, "SERVICE_NAME");
-                    c.TransportStreamId = (uint)this.file.get_uint64 (group, "TRANSPORT_STREAM_ID");
-                    c.Scrambled = this.file.get_boolean (group, "SCRAMBLED");
-                    c.ServiceType = (DVBServiceType)this.file.get_uint64 (group, "SERVICE_TYPE");
+                    if (this.file.has_key (group, "SERVICE_ID"))
+                        c.Sid = (uint)this.file.get_uint64 (group, "SERVICE_ID");
+                    if (this.file.has_key (group, "SERVICE_NAME"))
+                        c.Name = this.file.get_string (group, "SERVICE_NAME");
+                    if (this.file.has_key (group, "TRANSPORT_STREAM_ID"))
+                        c.TransportStreamId = (uint)this.file.get_uint64 (group, "TRANSPORT_STREAM_ID");
+                    if (this.file.has_key (group, "SCRAMBLED"))
+                        c.Scrambled = this.file.get_boolean (group, "SCRAMBLED");
+                    if (this.file.has_key (group, "SERVICE_TYPE"))
+                        c.ServiceType = (DVBServiceType)this.file.get_uint64 (group, "SERVICE_TYPE");
                     if (this.file.has_key (group, "VIDEO_PID"))
                         c.VideoPID = (uint)this.file.get_uint64 (group, "VIDEO_PID");
-
                     if (this.file.has_key (group, "AUDIO_PID")) {
                         uint[] apids = (uint[])this.file.get_integer_list (group, "AUDIO_PID");
                         for (uint i = 0; i < apids.length; i++)
