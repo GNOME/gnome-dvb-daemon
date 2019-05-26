@@ -234,7 +234,7 @@ namespace DVB {
             Element queue = ElementFactory.make ("queue", null);
             queue.set ("max-size-buffers", 0);
 
-            Gst.Element bin = new Gst.Bin ("sink_bin");
+            Gst.Element bin = new Gst.Bin (sink_bin);
             ((Gst.Bin)bin).add_many (queue, sink_element);
             if (!queue.link (sink_element)) {
                 log.error ("Could not link elements %s and %s", queue.get_name (),
