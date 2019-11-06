@@ -12,7 +12,7 @@ Daemon:
     - glib >= 2.28.5
     - libgee >= 0.5.0
     - sqlite >= 3.4
-    - gst-rtsp-server = 1.4.5 (https://github.com/GStreamer/gst-rtsp-server)
+    - gst-rtsp-server = 1.4.5 ( https://github.com/GStreamer/gst-rtsp-server )
     - gudev
 
 UI:
